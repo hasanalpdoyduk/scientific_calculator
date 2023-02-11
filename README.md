@@ -1,4 +1,4 @@
-# Scientific Calculator
+# Scientific Calculator Interface
 
 Calculator software that can do advanced mathematical calculations. In addition to all the features of a scientific calculator, some shortcut keys are also available.
 
