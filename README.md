@@ -2,7 +2,7 @@
 
 Calculator software that can do advanced mathematical calculations. In addition to all the features of a scientific calculator, some shortcut keys are also available.
 
-<img src="https://github.com/hasanalpdoyduk/scientific_calculator/blob/main/scientific_calculator_photo.png" width="900" height="800" align="center" >
+<img src="https://github.com/hasanalpdoyduk/scientific_calculator/blob/main/Documentation/scientific_calculator_photo.png" width="900" height="800" align="center" >
 
 ## Usage
 
