@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2017-2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="appmigration">
+  <message>
+    <entry key="InvalidFileName">Unable to find file ''{0}''.</entry>
+    <entry key="InvalidCodeFileName">Unable to find required file ''{0}''.</entry>
+    <entry key="OpenBeforeRun">Open file in App Designer and save before running.</entry>
+    <entry key="SelectFigFile">Select a GUIDE .fig file</entry>
+    <entry key="NotGuideCreatedApp">Layout file must be a GUIDE-generated .fig file</entry>
+    <entry key="NotWritableLocation">Unable to create file ''{0}''. Check write permission.</entry>
+    <entry key="AppTitle">GUIDE to App Designer Migration Tool</entry>
+    <entry key="ProgressDialogMessage">Migrating ''{0}'' ... </entry>
+    <entry key="TempFolderWarning">Temporary folder ''{0}'' could not be deleted. Please delete manually.</entry>
+  </message>
+</rsccat>

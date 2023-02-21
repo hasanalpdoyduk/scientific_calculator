@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!-- Copyright 2018 - 2020 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="appmigration">
+    <message>  
+        <entry key="AddCodeToStartupFcnWorkaround">Add the following code to the beginning of <![CDATA[<code>]]>{0}<![CDATA[</code>]]>.</entry>
+        <entry key="ConfigurePropertyProgrammatically">You must configure this property programmatically in App Designer.</entry>
+        <entry key="ConfigurePropertyProgrammaticallyWorkaround">Set this property at the beginning of the <![CDATA[<code>]]>{0}<![CDATA[</code>]]>.</entry>
+        <entry key="FindComponentAPI">Using <![CDATA[<code>]]>findobj<![CDATA[</code>]]>, <![CDATA[<code>]]>findall<![CDATA[</code>]]> or <![CDATA[<code>]]>gcbo<![CDATA[</code>]]> to locate a <![CDATA[<code>]]>UIControl<![CDATA[</code>]]> object requires updates to your code.</entry>
+        <entry key="FindComponentAPIWorkaround">Access your app component using the <![CDATA[<code>]]>handles<![CDATA[</code>]]> structure instead, or update your code to use the associated App Designer component. For more details, see <![CDATA[<a href="matlab:helpview(fullfile(docroot,'matlab', 'creating_guis', 'differences-between-app-designer-and-guide.html#mw_25ffdeb6-b752-4df7-9d65-92c43f132e78'));">]]>GUIDE Migration Strategies<![CDATA[</a>]]>.</entry>
+        <entry key="NarginAPI">Use of <![CDATA[<code>]]>nargin<![CDATA[</code>]]> or <![CDATA[<code>]]>narginchk<![CDATA[</code>]]> might result in an error or unexpected behavior because the <![CDATA[<code>]]>app<![CDATA[</code>]]> input argument has been added to each helper function.</entry>
+        <entry key="NarginAPIWorkaround">Update your <![CDATA[<code>]]>nargin<![CDATA[</code>]]> or <![CDATA[<code>]]>narginchk<![CDATA[</code>]]> code to account for the extra input argument.</entry>
+        <entry key="NoWorkaround">Determine if this functionality is critical to your app before continuing because there is no workaround. </entry>
+        <entry key="InvalidParentUicontrolRadioButton">Invalid parent for radio button. Set the parent to a button group.</entry>
+        <entry key="InvalidParentUicontrolRadioButtonWorkaround">Recreate the radio button in a button group in App Designer. Alternatively, consider replacing the radio button with a state button or a check box.</entry>
+        <entry key="PixelSupportOnlyForSizeChangedFcn">App Designer only supports pixel units. You might need to update the <![CDATA[<code>]]>SizeChangedFcn<![CDATA[</code>]]> callback if it uses other units.</entry>
+        <entry key="PixelSupportOnlyForSizeChangedFcnWorkaround">Consider using automatic resizing or a grid layout manager instead. Alternatively, update your <![CDATA[<code>]]>SizeChangedFcn<![CDATA[</code>]]> callback to work with pixel units. To learn about resizing App Designer apps, see <![CDATA[<a href="matlab:helpview('matlab', 'app_resize_options');">]]>Managing Resizable Apps in App Designer<![CDATA[</a>]]>.</entry>
+        <entry key="UnsupportedCallbackCreateFcnWorkaround">If the callback code can be executed after all the app components have been created, then move that code to the <![CDATA[<code>]]>{0}<![CDATA[</code>]]>.</entry>
+        <entry key="UnsupportedCallbackOutputFcn">There is no equivalent <![CDATA[<code>]]>OutputFcn<![CDATA[</code>]]> functionality in App Designer.</entry>
+        <entry key="UnsupportedCallbackOutputFcnWorkaround">If your <![CDATA[<code>]]>OutputFcn<![CDATA[</code>]]> function includes initialization code that is critical to your app, then add it to the end of <![CDATA[<code>]]>{0}<![CDATA[</code>]]> instead. If your OutputFcn function specifies output to be assigned to the workspace when you instantiate the app, see <![CDATA[<a href="matlab:helpview(fullfile(docroot,'matlab', 'creating_guis', 'differences-between-app-designer-and-guide.html#mw_25ffdeb6-b752-4df7-9d65-92c43f132e78'));">]]>GUIDE Migration Strategies<![CDATA[</a>]]>.</entry>
+        <entry key="UnsupportedCallbackTypeAdditionalArgs">You must configure this callback programmatically in App Designer because it uses more than the default number of arguments.</entry>
+        <entry key="UnsupportedCallbackTypeAdditionalArgsWorkaround">At the beginning of <![CDATA[<code>]]>{0}<![CDATA[</code>]]>, specify the callback as a cell array. Specify the first element of the cell array as a function handle to a private helper function. Specify additional elements for each additional input argument. To learn about assigning callbacks programmatically, see <![CDATA[<a href="matlab:helpview('matlab', 'progcomps');">]]>Add UI Components to App Designer Programmatically<![CDATA[</a>]]>.</entry>
+        <entry key="UnsupportedCallbackTypeCustom">You must configure this callback programmatically in App Designer because it executes a function that is not defined in the app code file.</entry>
+        <entry key="UnsupportedCallbackTypeEvalInBase">You must configure this callback programmatically in App Designer because it contains commands that are evaluated in the base workspace.</entry>
+        <entry key="UnsupportedCallbackUicontrolInButtonGroup">Callbacks for radio and toggle buttons must be added to a parent button group.</entry>
+        <entry key="UnsupportedCallbackUicontrolInButtonGroupWorkaround">Use the <![CDATA[<code>]]>SelectionChangedFcn<![CDATA[</code>]]> callback of the parent button group.</entry>
+        <entry key="UnsupportedCallbackWithNoWorkaround">This callback property for the component(s) is not supported in App Designer and was not migrated.</entry>
+        <entry key="UnsupportedCallbackPredefinedSaveTool">The default ClickedCallback for the predefined save tool is not supported in App Designer and was not migrated.</entry>
+        <entry key="UnsupportedComponentWithNoWorkaround">This component is not supported in App Designer and was not migrated.</entry>
+        <entry key="UnsupportedPropertyCData">The <![CDATA[<code>]]>CData<![CDATA[</code>]]> property is not intended for check boxes and radio buttons.</entry>
+        <entry key="UnsupportedPropertyCDataWorkaround">To display an image, replace the component with a <![CDATA[<code>]]>uiimage<![CDATA[</code>]]> from the App Designer Component Library.</entry>
+        <entry key="UnsupportedPropertyListboxTop">This property has been replaced with a <![CDATA[<code>]]>scroll<![CDATA[</code>]]> function on the component.</entry>
+        <entry key="UnsupportedPropertyWithNoWorkaround">This property for the component(s) is not supported in App Designer and was not migrated.</entry>
+        <entry key="UnsupportedAPIUicontrol">Using the <![CDATA[<code>]]>uicontrol<![CDATA[</code>]]> function to dynamically add a <![CDATA[<code>]]>UIControl<![CDATA[</code>]]> object to your app is not supported in App Designer.</entry>
+        <entry key="UnsupportedAPIUicontrolWorkaround">Update your code to use the associated App Designer component. For more details, see <![CDATA[<a href="matlab:helpview(fullfile(docroot,'matlab', 'creating_guis', 'differences-between-app-designer-and-guide.html#mw_a37cdcf3-bb43-4e74-b28d-7b9c599f0bfd'));">]]>GUIDE Migration Strategies<![CDATA[</a>]]>.</entry>
+        <entry key="UnsupportedAPIWithNoWorkaround">This function is not supported in App Designer code.</entry>
+        <entry key="UnsupportedAPIClfReset">The <![CDATA[<code>]]>reset<![CDATA[</code>]]> input argument to the <![CDATA[<code>]]>clf<![CDATA[</code>]]> function is not supported in App Designer code.</entry> 
+        <entry key="UnsupportedAPIRequiresAdditionalCode">Using this function requires additional code in your app.</entry>
+        <entry key="UnsupportedAPIRequiresAdditionalCodeWorkaround">Call the <![CDATA[<code>]]>axes<![CDATA[</code>]]>, <![CDATA[<code>]]>polaraxes<![CDATA[</code>]]>, or <![CDATA[<code>]]>geoaxes<![CDATA[</code>]]> function to create the axes first. Create the desired plot, and then call the <![CDATA[<code>]]>{0}<![CDATA[</code>]]> function.</entry>
+        <entry key="UnrecommendedUsingCallbackProgrammatically">Calling a callback programmatically from another function or callback is not recommended and will error in a migrated app.</entry>
+        <entry key="UnrecommendedUsingCallbackProgrammaticallyWorkaround">In your migrated app, move the callback code to a separate app helper function and then call this helper function instead.</entry>
+        <entry key="UnrecommendedAPIToBeRemoved">This functionality is not recommended and will be removed in a future release.</entry>
+        <entry key="UnrecommendedAPIActivexJavaWorkaround">See <![CDATA[<a href="]]>{0}<![CDATA[">]]>Recommendations for MATLAB Apps Using Java and ActiveX<![CDATA[</a>]]> for potential alternatives.</entry>
+    </message>
+</rsccat>

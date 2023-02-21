@@ -1,0 +1,137 @@
+{
+  "IssuesWithNoWorkaround": [
+    "UnsupportedComponentWithNoWorkaround",
+    "UnsupportedCallbackPredefinedSaveTool",
+    "UnsupportedCallbackWithNoWorkaround",
+    "UnsupportedPropertyWithNoWorkaround",
+    "UnsupportedAPIWithNoWorkaround"
+  ],
+  "Issues": {
+    "UnsupportedComponentWithNoWorkaround": {
+      "DetailsMessageId": "UnsupportedComponentWithNoWorkaround",
+      "WorkaroundMessageId": "NoWorkaround",
+      "WorkaroundMessageHoleId": null,
+      "WorkaroundMessageHoleData": null
+    },
+    "UnsupportedCallbackPredefinedSaveTool": {
+      "DetailsMessageId": "UnsupportedCallbackPredefinedSaveTool",
+      "WorkaroundMessageId": "NoWorkaround",
+      "WorkaroundMessageHoleId": null,
+      "WorkaroundMessageHoleData": null
+    },
+    "UnsupportedCallbackWithNoWorkaround": {
+      "DetailsMessageId": "UnsupportedCallbackWithNoWorkaround",
+      "WorkaroundMessageId": "NoWorkaround",
+      "WorkaroundMessageHoleId": null,
+      "WorkaroundMessageHoleData": null
+    },
+    "UnsupportedCallbackCreateFcn": {
+      "DetailsMessageId": "UnsupportedCallbackWithNoWorkaround",
+      "WorkaroundMessageId": "UnsupportedCallbackCreateFcnWorkaround",
+      "WorkaroundMessageHoleId": "OpeningFcn",
+      "WorkaroundMessageHoleData": null
+    },
+    "UnsupportedCallbackOutputFcn": {
+      "DetailsMessageId": "UnsupportedCallbackOutputFcn",
+      "WorkaroundMessageId": "UnsupportedCallbackOutputFcnWorkaround",
+      "WorkaroundMessageHoleId": "OpeningFcn",
+      "WorkaroundMessageHoleData": null
+    },
+    "UnsupportedPropertyCData": {
+      "DetailsMessageId": "UnsupportedPropertyCData",
+      "WorkaroundMessageId": "UnsupportedPropertyCDataWorkaround",
+      "WorkaroundMessageHoleId": null,
+      "WorkaroundMessageHoleData": null
+    },
+    "UnsupportedPropertyWithNoWorkaround": {
+      "DetailsMessageId": "UnsupportedPropertyWithNoWorkaround",
+      "WorkaroundMessageId": "NoWorkaround",
+      "WorkaroundMessageHoleId": null,
+      "WorkaroundMessageHoleData": null
+    },
+    "UnsupportedAPIWithNoWorkaround": {
+      "DetailsMessageId": "UnsupportedAPIWithNoWorkaround",
+      "WorkaroundMessageId": "NoWorkaround",
+      "WorkaroundMessageHoleId": null,
+      "WorkaroundMessageHoleData": null
+    },
+    "FindComponentAPI": {
+      "DetailsMessageId": "FindComponentAPI",
+      "WorkaroundMessageId": "FindComponentAPIWorkaround",
+      "WorkaroundMessageHoleId": null,
+      "WorkaroundMessageHoleData": null
+    },
+    "NarginAPI": {
+      "DetailsMessageId": "NarginAPI",
+      "WorkaroundMessageId": "NarginAPIWorkaround",
+      "WorkaroundMessageHoleId": null,
+      "WorkaroundMessageHoleData": null
+    },
+    "InvalidParentUicontrolRadioButton": {
+      "DetailsMessageId": "InvalidParentUicontrolRadioButton",
+      "WorkaroundMessageId": "InvalidParentUicontrolRadioButtonWorkaround",
+      "WorkaroundMessageHoleId": null,
+      "WorkaroundMessageHoleData": null
+    },
+    "PixelSupportOnlyForSizeChangedFcn": {
+      "DetailsMessageId": "PixelSupportOnlyForSizeChangedFcn",
+      "WorkaroundMessageId": "PixelSupportOnlyForSizeChangedFcnWorkaround",
+      "WorkaroundMessageHoleId": null,
+      "WorkaroundMessageHoleData": null
+    },
+    "UnrecommendedUsingCallbackProgrammatically": {
+      "DetailsMessageId": "UnrecommendedUsingCallbackProgrammatically",
+      "WorkaroundMessageId": "UnrecommendedUsingCallbackProgrammaticallyWorkaround",
+      "WorkaroundMessageHoleId": null,
+      "WorkaroundMessageHoleData": null
+    },
+    "UnsupportedComponentActivex": {
+      "DetailsMessageId": "UnrecommendedAPIToBeRemoved",
+      "WorkaroundMessageId": "UnrecommendedAPIActivexJavaWorkaround",
+      "WorkaroundMessageHoleId": "HoleArray",
+      "WorkaroundMessageHoleData": ["https://www.mathworks.com/pi_app_designer_R2019b_migration_tool_activex"]
+    },
+    "UnsupportedAPIActivex": {
+      "DetailsMessageId": "UnrecommendedAPIToBeRemoved",
+      "WorkaroundMessageId": "UnrecommendedAPIActivexJavaWorkaround",
+      "WorkaroundMessageHoleId": "HoleArray",
+      "WorkaroundMessageHoleData": ["https://www.mathworks.com/pi_app_designer_R2019b_migration_tool_activex"]
+    },
+    "UnsupportedAPIJavacomponent": {
+      "DetailsMessageId": "UnrecommendedAPIToBeRemoved",
+      "WorkaroundMessageId": "UnrecommendedAPIActivexJavaWorkaround",
+      "WorkaroundMessageHoleId": "HoleArray",
+      "WorkaroundMessageHoleData": ["https://www.mathworks.com/pi_app_designer_R2019b_migration_tool_javacomponent"]
+    },
+    "UnsupportedAPIJavaframe": {
+      "DetailsMessageId": "UnrecommendedAPIToBeRemoved",
+      "WorkaroundMessageId": "UnrecommendedAPIActivexJavaWorkaround",
+      "WorkaroundMessageHoleId": "HoleArray",
+      "WorkaroundMessageHoleData": ["https://www.mathworks.com/pi_app_designer_R2019b_migration_tool_javaframe"]
+    },
+    "UnsupportedAPIClfReset": {
+      "DetailsMessageId": "UnsupportedAPIClfReset",
+      "WorkaroundMessageId": "NoWorkaround",
+      "WorkaroundMessageHoleId": null,
+      "WorkaroundMessageHoleData": null
+    },
+    "UnsupportedAPIUicontrol": {
+      "DetailsMessageId": "UnsupportedAPIUicontrol",
+      "WorkaroundMessageId": "UnsupportedAPIUicontrolWorkaround",
+      "WorkaroundMessageHoleId": null,
+      "WorkaroundMessageHoleData": null
+    },
+    "UnsupportedCallbackUicontrolInButtonGroup": {
+      "DetailsMessageId": "UnsupportedCallbackUicontrolInButtonGroup",
+      "WorkaroundMessageId": "UnsupportedCallbackUicontrolInButtonGroupWorkaround",
+      "WorkaroundMessageHoleId": null,
+      "WorkaroundMessageHoleData": null
+    },
+    "UnsupportedCallbackTypeAdditionalArgs": {
+      "DetailsMessageId": "UnsupportedCallbackTypeAdditionalArgs",
+      "WorkaroundMessageId": "UnsupportedCallbackTypeAdditionalArgsWorkaround",
+      "WorkaroundMessageHoleId": "OpeningFcn",
+      "WorkaroundMessageHoleData": null
+    }
+  }
+}

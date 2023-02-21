@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!-- Copyright 2018 - 2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="appmigration">
+  <message>
+    <!-- Title & Overview section -->
+    <entry key="reportTitle">Migration Report for {0}</entry>
+    <entry key="resultsHeader">Migration Results</entry>
+    <entry key="readyForValidationHeader">Your GUIDE app was migrated to App Designer and is ready for validation.</entry>
+    <entry key="actionRequiredHeader">Your GUIDE app was migrated to App Designer and some action is required.</entry>
+    <entry key="generatedAppText"><![CDATA[<b>]]>{0}<![CDATA[</b>]]> file created</entry>
+    <entry key="analyzedCodeText"><![CDATA[<b>]]>{0}<![CDATA[</b>]]> lines of code analyzed in {1}</entry>
+    <entry key="migratedComponentsText"><![CDATA[<b>]]>{0}<![CDATA[</b>]]> components created and initialized</entry>
+    <entry key="copiedCodeText"><![CDATA[<b>]]>{0}<![CDATA[</b>]]> callbacks and utility functions configured and enabled to function in App Designer</entry>
+    <!-- Issues section -->
+    <entry key="issuesHeader">Issues Requiring Action</entry>
+    <!-- Validate app section -->
+    <entry key="validateHeader">Validate Your Migrated App</entry>
+    <entry key="validateDescriptionText">The migration tool enables most of your app code to execute. Now, you need to fully validate your migrated app to make sure it behaves as expected. Consider doing the following verifications:</entry>
+    <entry key="verifyLayoutHeader">Verify Layout</entry>
+    <entry key="verifyLayoutText1">Run your app and verify the initial layout of all components is as expected.</entry>
+    <entry key="verifyLayoutText2">If your app dynamically shows, hides, or enables additional components or options in response to selections made within the app, confirm these behave as expected.</entry>
+    <entry key="verifyCallbacksHeader">Verify Callbacks</entry>
+    <entry key="verifyCallbacksText1">Run and close your app to confirm there are no startup or termination errors.</entry>
+    <entry key="verifyCallbacksText2">Exercise the workflows specific to your app, starting with the most basic, and gradually proceeding to the more complex ones.</entry>
+    <entry key="validateFooterText">If unexpected errors occur, either within the app or at the MATLAB command line, address those issues before continuing with the validation. For troubleshooting assistance and additional information, see <![CDATA[<a href="matlab:helpview(fullfile(docroot,'matlab', 'creating_guis', 'differences-between-app-designer-and-guide.html#mw_7f306e19-74d0-4c0b-989d-74ed63e32ddd'));">]]>GUIDE Migration Strategies<![CDATA[</a>]]>.</entry>
+    <!-- Issue Tables -->
+    <entry key="detailsHeader">Details</entry>
+    <entry key="detailsWithWorkaroundsHeader">Details</entry>
+    <entry key="functionalityHeader">Functionality</entry>
+    <entry key="identifierHeaderTagAndLine">GUIDE Tag / Line #</entry>
+    <entry key="identifierHeaderTagOnly">GUIDE Tag</entry>
+    <entry key="identifierHeaderLineOnly">GUIDE Line #</entry>
+    <entry key="workaroundHeader">Action:</entry>
+    <entry key="showMore">Show more ({0})</entry>
+    <entry key="showLess">Show less</entry>
+    <!-- Formatting -->
+    <entry key="wrapWithCodeTag"><![CDATA[<code>]]>{0}<![CDATA[</code>]]></entry>
+  </message>
+</rsccat>

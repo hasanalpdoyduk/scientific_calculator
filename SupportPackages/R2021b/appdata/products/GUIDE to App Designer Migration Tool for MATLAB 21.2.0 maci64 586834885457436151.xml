@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productData>
+  <altDependencies>
+    <product>
+      <isControllingProduct>true</isControllingProduct>
+      <productBaseCode>ML</productBaseCode>
+      <productName>MATLAB</productName>
+      <productNumber>1</productNumber>
+      <productVersion>9.11</productVersion>
+      <releaseDescription>R2021b</releaseDescription>
+      <releaseFamily>R2021b</releaseFamily>
+    </product>
+  </altDependencies>
+  <dependsOn>
+    <component>
+      <name>hardwaresupportpkgs/licenses/asla_license_common</name>
+      <instrset>0</instrset>
+      <locale />
+      <platformList>
+        <platform>glnxa64</platform>
+        <platform>maci64</platform>
+        <platform>win64</platform>
+      </platformList>
+      <version>1626858535</version>
+    </component>
+    <component>
+      <name>softwaresupportpkgs/appdesigner/appmigration_common</name>
+      <instrset>0</instrset>
+      <locale />
+      <platformList>
+        <platform>glnxa64</platform>
+        <platform>maci64</platform>
+        <platform>win64</platform>
+      </platformList>
+      <version>1626917201</version>
+    </component>
+    <component>
+      <name>softwaresupportpkgs/appdesigner/appmigration_resources_common</name>
+      <instrset>0</instrset>
+      <locale />
+      <platformList>
+        <platform>glnxa64</platform>
+        <platform>maci64</platform>
+        <platform>win64</platform>
+      </platformList>
+      <version>1625032115</version>
+    </component>
+  </dependsOn>
+  <installerUsage>
+    <usage>professional</usage>
+  </installerUsage>
+  <isControllingProduct>false</isControllingProduct>
+  <licenseAgreementType>ASLA</licenseAgreementType>
+  <platformList>
+    <platform>glnxa64</platform>
+    <platform>maci64</platform>
+    <platform>win64</platform>
+  </platformList>
+  <productBaseCode>ML_APP_DESIGNER_GUIDE</productBaseCode>
+  <productName>GUIDE to App Designer Migration Tool for MATLAB</productName>
+  <productNumber>2182</productNumber>
+  <productType>softwareSupportPkg</productType>
+  <productVersion>21.2.0</productVersion>
+  <releaseDescription>R2021b</releaseDescription>
+  <releaseFamily>R2021b</releaseFamily>
+  <requiredProducts />
+</productData>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- Copyright 2017-2019 The MathWorks, Inc. -->
+<RTTPackageRepository>
+    <SupportPackage
+        name="GUIDE to App Designer Migration Tool"
+        basecode="ML_APP_DESIGNER_GUIDE"
+        fullname="GUIDE to App Designer Migration Tool for MATLAB"
+        displayname="GUIDE to App Designer Migration Tool for MATLAB"
+        version="21.2.0"
+        platform="PCWIN64,MACI64,GLNXA64"
+        baseproduct="matlab"
+        visible="1"
+        enable="1"
+        url="https://www.mathworks.com"
+        downloadurl=""
+        licenseurl=""
+        folder = "appmigration"
+        supportcategory="software"
+        infotext="Migrate GUIDE app to App Designer">
+        <Path name="$(INSTALLDIR)/appmigration/appmigration"></Path>
+    </SupportPackage>
+</RTTPackageRepository>

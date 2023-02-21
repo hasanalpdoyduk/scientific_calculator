@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<componentData>
+  <component>
+    <componentBaseName>softwaresupportpkgs/appdesigner/appmigration_resources</componentBaseName>
+    <componentFileName>softwaresupportpkgs/appdesigner/appmigration_resources_common_1625032115.zip</componentFileName>
+    <componentName>softwaresupportpkgs/appdesigner/appmigration_resources_common</componentName>
+    <componentVersion>1625032115</componentVersion>
+    <instrset>0</instrset>
+    <locale />
+    <locationId>1</locationId>
+    <numFiles>4</numFiles>
+    <platformList>
+      <platform>glnxa64</platform>
+      <platform>maci64</platform>
+      <platform>win64</platform>
+    </platformList>
+    <releaseFamily>R2021b</releaseFamily>
+    <size>6154</size>
+    <type />
+    <uncompressedBytes>19627</uncompressedBytes>
+  </component>
+</componentData>
+

@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!-- Copyright 2020-2021 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="appmigration">
+    <message>
+        <entry key="SetComponentPropertiesComment" translate="false">% Set component properties that require runtime configuration</entry>
+        <entry key="LoadComponentDataComment" translate="false">% Load data for component configuration</entry>
+        <entry key="UpdateComponentsComment" translate="false">% Update components that require runtime configuration</entry>
+        <entry key="AddedConfigurationByMigrationToolComment" translate="false">% Add runtime required configuration - Added by Migration Tool</entry>
+        <entry key="CreateFigureComment" translate="false">% Create a new UI figure</entry>
+        <entry key="CreateFigureCode" translate="false">uifigure(''WindowStyle'', app.{0}.WindowStyle);</entry>
+        <entry key="OpenFigureComment" translate="false">% Open an existing UI figure</entry>
+        <entry key="OpenFigureCode" translate="false">uiopen(''figure'')</entry>
+        <entry key="ToolCommonComment1" translate="false">% Enable or disable {0} based on the</entry>
+        <entry key="ToolCommonComment2" translate="false">% tool's current state.</entry>
+        <entry key="LegendCode_Line1" translate="false">legend(gca);</entry>
+        <entry key="LegendCode_Line2" translate="false">legend(gca,''off'');</entry>
+        <entry key="ColorbarCode_Line1" translate="false">colorbar(gca);</entry>
+        <entry key="ColorbarCode_Line2" translate="false">colorbar(gca,''off'');</entry>
+        <entry key="ZoomCode_Line1" translate="false">zoomModeObject = zoom(app.{0});</entry>
+        <entry key="ZoomCode_Line2" translate="false">zoomModeObject.Enable = 'on';</entry>
+        <entry key="ZoomCode_Line3" translate="false">zoomModeObject.Enable = 'off';</entry>
+        <entry key="ZoominCode_Line2" translate="false">zoomModeObject.Direction = 'in';</entry>
+        <entry key="ZoomoutCode_Line1" translate="false">zoomModeObject.Direction = 'out';</entry>
+        <entry key="RotateCode" translate="false">rotate3d(app.{0}, char(state));</entry>
+        <entry key="PanCode" translate="false">pan(app.{0}, char(state));</entry>
+        <entry key="DataCursorCode" translate="false">datacursormode(app.{0}, char(state));</entry>
+        <entry key="StateAssignment" translate="false">state = app.{0}.State;</entry>
+        <entry key="IfStatement" translate="false">if state</entry>
+        <entry key="ElseStatement" translate="false">else</entry>
+        <entry key="EndStatement" translate="false">end</entry>
+        <entry key="PrintComment1" translate="false">% This tool was migrated from GUIDE to App Designer.</entry>
+        <entry key="PrintComment2" translate="false">% In GUIDE, clicking on the print tool opened a system</entry>
+        <entry key="PrintComment3" translate="false">% print dialog. In App Designer, clicking</entry>
+        <entry key="PrintComment4" translate="false">% on the print tool saves a screenshot of the app</entry>
+        <entry key="PrintComment5" translate="false">% to a new file.</entry>    
+        <entry key="PrintComment6" translate="false">% Determine the inputs to uiputfile, including default file</entry>
+        <entry key="PrintComment7" translate="false">% name, file filter, and dialog title.</entry>
+        <entry key="PrintCode1" translate="false">defname = [pwd, filesep, mfilename, ''_Screenshot.jpg''];</entry>
+        <entry key="PrintCode2" translate="false">filter = '{'''*.jpg'',''JPEG Joint Photographic Experts Group Format'';...</entry>
+        <entry key="PrintCode3" translate="false">''*.png'',''PNG Portable Network Graphics Format'';...</entry>
+        <entry key="PrintCode4" translate="false">''*.tiff'',''TIFF Tag Image File Format'';...</entry>
+        <entry key="PrintCode5" translate="false">''*.pdf'',''PDF Portable Document Format''};</entry>
+        <entry key="PrintCode6" translate="false">title = ''Save App Screenshot to File'';</entry>
+        <entry key="PrintComment8" translate="false">% Display a modal dialog box that allows users to select or</entry>
+        <entry key="PrintComment9" translate="false">% specify a file path for the saved screenshot.</entry>
+        <entry key="PrintCode7" translate="false">[file, name, path] = uiputfile(filter, title, defname);</entry>
+        <entry key="PrintComment10" translate="false">% Check that the file path is valid and then save a screenshot of the app.</entry>
+        <entry key="PrintCode8" translate="false">if path ~= 0</entry>
+        <entry key="PrintCode9" translate="false">exportapp(app.{0}, [name, file]);</entry>
+        <entry key="InteractiveToolLine1" translate="false">% Reset the states of interactive tools and reset all figure</entry>
+        <entry key="InteractiveToolLine2" translate="false">% interactions.</entry>
+        <entry key="InteractiveToolLine3" translate="false">app.resetInteractions(event);</entry>
+        <entry key="InteractionHelperFunction_line1" translate="false">% This function resets the states of the toggle tools that</entry>
+        <entry key="InteractionHelperFunction_line2" translate="false">% impact user interactions.  It also resets the figure interactions.</entry>
+        <entry key="InteractionHelperFunction_line3" translate="false">% Find all tools to reset.  Exclude the tool associated</entry>
+        <entry key="InteractionHelperFunction_line4" translate="false">% with the event.</entry>
+        <entry key="InteractionHelperFunction_line5" translate="false">interactiveTools(event.Source == interactiveTools) = [];</entry>
+        <entry key="InteractionHelperFunction_line6" translate="false">% Set the state of the tools to ''off''.</entry>
+        <entry key="InteractionHelperFunction_line7" translate="false">[interactiveTools.State] = deal(''off'');</entry>
+        <entry key="InteractionHelperFunction_line8" translate="false">% Set figure interactions to ''off''.</entry>
+        <entry key="InteractionHelperFunction_line9" translate="false">datacursormode(app.{0}, ''off'')</entry>
+        <entry key="InteractionHelperFunction_line10" translate="false">rotate3d(app.{0}, ''off'');</entry>
+        <entry key="InteractionHelperFunction_line11" translate="false">pan(app.{0}, ''off'');</entry>
+        <entry key="InteractionHelperFunction_line12" translate="false">zoom(app.{0},''off'');</entry>
+        <entry key="EnsureOnScreenComment" translate="false">Ensure that the app appears on screen when run</entry>
+        <entry key="EnsureOnScreenCode" translate="false">movegui({0}, ''onscreen'');</entry>
+    </message>
+</rsccat>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productAdditionalComps>
+  <dependsOn />
+  <isControllingProduct>false</isControllingProduct>
+  <licenseAgreementType>ASLA</licenseAgreementType>
+  <platform>maci64</platform>
+  <productBaseCode>ML_APP_DESIGNER_GUIDE</productBaseCode>
+  <productName>GUIDE to App Designer Migration Tool for MATLAB</productName>
+  <productNumber>2182</productNumber>
+  <productType>softwareSupportPkg</productType>
+  <productVersion>21.2.0</productVersion>
+  <releaseDescription>R2021b</releaseDescription>
+  <releaseFamily>R2021b</releaseFamily>
+</productAdditionalComps>
+
